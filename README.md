@@ -4,7 +4,18 @@
 Built with a **React frontend**, **Firebase backend** (Auth, Firestore, and Storage), and hosted on **Vercel** for fast global deployment.
 
 
+## 🧩 Core Functionalities & Features
 
+- **User Authentication** – Secure login and registration via Firebase Auth  
+- **Internship Listings** – Browse and filter curated internship opportunities  
+- **Search & Filter System** – Quickly find listings by keyword, category, or company  
+- **Application Tracker** – Add, edit, and monitor internship application progress  
+- **AI Resume Analyzer** – Upload or paste a resume to receive improvement feedback  
+- **Admin Management** – Add or update internship data through a protected interface  
+- **Responsive Design** – Fully functional on desktop, tablet, and mobile devices  
+- **Real-Time Updates** – Data synced instantly through Firebase Firestore  
+- **Error & Loading States** – Clear feedback during data fetching or submission  
+- **Deployed on Vercel** – Optimized for fast, reliable access globally
 
 
 
