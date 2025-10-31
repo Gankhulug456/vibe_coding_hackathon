@@ -1,3 +1,6 @@
+➡️ **Note:** The `Prompt.txt` file contains all development-related conversations with **Gemini** during the ideation and implementation phases.
+
+
 ## 🧠 About Nomadly
 
 **Nomadly** is a web platform designed to support **Mongolian university students** in their career journeys.  
