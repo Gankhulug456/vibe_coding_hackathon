@@ -1,4 +1,4 @@
-➡️ **Note:** The `Prompt.txt` file contains all development-related conversations with **Gemini** during the ideation and implementation phases.
+➡️ **Note:** The `prompt.json` file contains all development-related conversations with **Gemini** during the ideation and implementation phases.
 
 
 ## 🧠 About Nomadly
