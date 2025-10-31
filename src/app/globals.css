@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base Colors - Light Mode (Lavender Theme) */
+    --background: 258 60% 98%;
+    --foreground: 255 10% 10%;
+
+    --primary: 258 86% 66%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 258 60% 94%;
+    --secondary-foreground: 255 10% 10%;
+
+    --muted: 258 60% 96%;
+    --muted-foreground: 255 4% 45%;
+
+    --accent: 258 100% 97%;
+    --accent-foreground: 258 86% 66%;
+    
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders */
+    --border: 255 10% 90%; 
+    --input: 255 10% 90%;
+    
+    --ring: 258 86% 66%;
+
+    /* Component Backgrounds */
+    --card: 0 0% 100%; 
+    --popover: 0 0% 100%;
+    --card-foreground: 255 10% 10%;
+    --popover-foreground: 255 10% 10%;
+
+    /* Sidebar specific variables */
+    --sidebar-background: 255 40% 96%;
+    --sidebar-foreground: 255 10% 10%; 
+    --sidebar-primary: 258 86% 66%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 258 100% 97%;
+    --sidebar-accent-foreground: 258 86% 66%;
+    --sidebar-border: 255 10% 88%; 
+    --sidebar-ring: 258 86% 66%; 
+    --sidebar-muted-foreground: 255 4% 55%;
+
+    --radius: 1rem;
+
+    /* Rainbow Button Colors */
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+  }
+
+  .dark {
+    /* Base Colors - Dark Mode (Lavender Theme) */
+    --background: 258 10% 12%;
+    --foreground: 258 5% 95%;
+
+    --primary: 258 86% 75%;
+    --primary-foreground: 258 5% 15%;
+
+    --secondary: 258 10% 20%;
+    --secondary-foreground: 258 5% 95%;
+
+    --muted: 252 10% 20%;
+    --muted-foreground: 258 5% 65%;
+
+    --accent: 258 15% 25%;
+    --accent-foreground: 258 86% 80%;
+    
+    --destructive: 0 60% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders */
+    --border: 252 10% 25%;
+    --input: 252 10% 25%;
+
+    --ring: 258 86% 75%;
+    
+    /* Component Backgrounds */
+    --card: 252 10% 17%;
+    --popover: 252 10% 17%;
+    --card-foreground: 255 5% 95%;
+    --popover-foreground: 255 5% 95%;
+
+    /* Sidebar specific variables */
+    --sidebar-background: 252 10% 15%;
+    --sidebar-foreground: 255 5% 95%;
+    --sidebar-primary: 258 86% 75%;
+    --sidebar-primary-foreground: 255 5% 15%;
+    --sidebar-accent: 252 10% 25%;
+    --sidebar-accent-foreground: 258 86% 80%;
+    --sidebar-border: 252 10% 30%;
+    --sidebar-ring: 258 86% 75%;
+    --sidebar-muted-foreground: 255 5% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .transition-all-subtle {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
